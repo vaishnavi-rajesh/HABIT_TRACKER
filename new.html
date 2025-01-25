@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Habit Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #f0f0f0;
+            height: 100px;
+            width: 1000px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .habit-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .habit-box {
+            background-color: #e0e0e0;
+            border-radius: 15px;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .habit-input {
+            width: 70%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .add-habit-btn {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Habit Tracker</h1>
+        <p>- for a healthy lifestyle</p>
+    </div>
+
+    <div class="habit-container" id="defaultHabits">
+        <div class="habit-box" data-habit="Drink 8 cups of water">
+            <span>Drink 8 cups of water</span>
+            <button onclick="trackHabit(this)">Track</button>
+        </div>
+        <div class="habit-box" data-habit="Sleep 8 hours">
+            <span>Sleep 8 hours</span>
+            <button onclick="trackHabit(this)">Track</button>
+        </div>
+        <div class="habit-box" data-habit="Exercise">
+            <span>Exercise</span>
+            <button onclick="trackHabit(this)">Track</button>
+        </div>
+    </div>
+
+    <div style="margin-top: 20px;">
+        <input type="text" id="newHabitInput" class="habit-input" placeholder="Enter a new habit">
+        <button class="add-habit-btn" onclick="addNewHabit()">Add Habit</button>
+    </div>
+
+    <div id="customHabits" class="habit-container"></div>
+
+    <script>
+        class HabitManager {
+            constructor() {
+                this.loadHabits();
+            }
+
+            loadHabits() {
+                const savedHabits = JSON.parse(localStorage.getItem('habits') || '[]');
+                const customHabitsContainer = document.getElementById('customHabits');
+                customHabitsContainer.innerHTML = '';
+
+                savedHabits.forEach(habit => {
+                    this.createHabitElement(habit, customHabitsContainer);
+                });
+            }
+
+            createHabitElement(habitName, container) {
+                const habitBox = document.createElement('div');
+                habitBox.classList.add('habit-box');
+                habitBox.setAttribute('data-habit', habitName);
+                habitBox.innerHTML = `
+                    <span>${habitName}</span>
+                    <button onclick="trackHabit(this)">Track</button>
+                    <button onclick="habitManager.deleteHabit(this)">Delete</button>
+                `;
+                container.appendChild(habitBox);
+            }
+
+            addHabit(habitName) {
+                const savedHabits = JSON.parse(localStorage.getItem('habits') || '[]');
+                
+                if (!savedHabits.includes(habitName)) {
+                    savedHabits.push(habitName);
+                    localStorage.setItem('habits', JSON.stringify(savedHabits));
+                    
+                    const customHabitsContainer = document.getElementById('customHabits');
+                    this.createHabitElement(habitName, customHabitsContainer);
+                }
+            }
+
+            deleteHabit(buttonElement) {
+                const habitBox = buttonElement.closest('.habit-box');
+                const habitName = habitBox.getAttribute('data-habit');
+
+                // Remove from localStorage
+                let savedHabits = JSON.parse(localStorage.getItem('habits') || '[]');
+                savedHabits = savedHabits.filter(h => h !== habitName);
+                localStorage.setItem('habits', JSON.stringify(savedHabits));
+
+                // Remove from DOM
+                habitBox.remove();
+            }
+        }
+
+        const habitManager = new HabitManager();
+
+        function addNewHabit() {
+            const newHabitInput = document.getElementById('newHabitInput');
+            const habitName = newHabitInput.value.trim();
+            
+            if (habitName) {
+                habitManager.addHabit(habitName);
+                newHabitInput.value = '';
+            }
+        }
+
+        function trackHabit(buttonElement) {
+            const habitBox = buttonElement.closest('.habit-box');
+            const habitName = habitBox.getAttribute('data-habit');
+            window.location.href = `habit-details.html?habit=${encodeURIComponent(habitName)}`;
+        }
+
+        // Load habits on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            habitManager.loadHabits();
+        });
+    </script>
+</body>
+</html>
