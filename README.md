@@ -1,34 +1,53 @@
-# [Project Name] 🎯
+# HABIT TRACKER
 
 
-## Basic Details
-### Team Name: [Name]
+## The Habit Tracker is a web-based application designed to help users develop and maintain healthy habits. The app allows users to add their own custom habits, as well as view and track progress on pre-set default habits like drinking water, sleeping, and exercising. For each habit, users can see their streaks and the number of days they've successfully completed a habit.
+
+
+### Team Name: ROOKIE CODERS
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [Vaishnavi rajesh] - [LBSITW]
+- Member 2: [Sruthi S Menon] - [LBSITW]
+- Member 3: [Sreelekshmy S] - [LBSITW]
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+habit-tracker-brown-alpha.vercel.app
 
 ### Project Description
-[2-3 lines about what your project does]
+The app features a calendar-style grid where each month is displayed, and completed days are marked with a color corresponding to the habit. This provides users with a clear visual representation of their progress over time. Habit data, including completed days and streaks, is saved in localStorage, ensuring that progress is preserved even when the user closes the browser.
+
+Users have the flexibility to add new habits with unique colors, delete habits they no longer want to track, and view detailed statistics, such as their current and longest streaks. The user-friendly design encourages consistency and motivates users to stay on track with their goals, offering a simple and engaging way to build better habits over time.
+
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+Many people struggle to build good habits or break bad ones. A Habit Tracker app helps users set goals, track their habits, and monitor progress over time. It provides reminders, visualizes progress (like streaks or graphs), and offers motivation to stay consistent. The goal is to make it easy for users to improve their daily routines and develop lasting habits.
+
+
+
+
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+### Solution Statement:
+
+The Habit Tracker is a web application that helps users track and maintain their habits. It allows users to view a monthly calendar, mark completed days, and track streaks for habits. Users can add custom habits, set daily reminders, and receive progress updates. The app stores data in `localStorage` for persistence, making it easy to track habits over time and stay motivated.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [HTML,CSS,JavaScript]
+- [no external Framework used]
+- [no external Libraries used]
+- ### Tools Used:
+
+1. **HTML**: To structure the web pages, including the habit tracker interface, habit details, and input forms.
+2. **CSS**: For styling and creating a clean, user-friendly layout, including responsive design features.
+3. **JavaScript**: For the interactive functionality, such as habit tracking, streak management, and reminders.
+4. **LocalStorage**: To store user habit data persistently across sessions, ensuring habits and progress are saved even after refreshing the page.
+5. **Date API**: To dynamically generate the current month's calendar, track dates, and manage habit completion.
+
+These tools work together to create a simple and interactive habit tracker web app.
 
 For Hardware:
 - [List main components]
@@ -47,8 +66,7 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
