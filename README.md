@@ -8,9 +8,9 @@
 
 
 ### Team Members
-- Member 1: Vaishnavi Rajesh - LBS Institute of Technology for Women
-- Member 2: Sruthi S Menon   - LBS Institute of Technology for Women
-- Member 3: Sreelekshmy S    - LBS Institute of Technology for Women
+- Vaishnavi Rajesh - LBS Institute of Technology for Women
+- Sruthi S Menon   - LBS Institute of Technology for Women
+- Sreelekshmy S    - LBS Institute of Technology for Women
 
 ### Hosted Project Link
 https://habit-tracker-brown-alpha.vercel.app
@@ -36,9 +36,9 @@ The Habit Tracker is a web application that helps users track and maintain their
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [HTML,CSS,JavaScript]
-- [no external Framework used]
-- [no external Libraries used]
+- HTML,CSS,Java Script
+- Date API
+- Chat GPT
 
 
 ### Implementation
@@ -63,35 +63,25 @@ Open the website link.Select the Track option to track the habits.The user can m
 # Screenshots
 
 ![IMG-20250208-WA0038](https://github.com/user-attachments/assets/3636eb91-abbc-456b-9d49-3c8dbfa7809b)
-Image showing the Habit Tracker website
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+Image showing the Habit Tracker website.
 
 
-# Build Photos
-![Team](Add photo of your team here)
+![IMG-20250208-WA0040](https://github.com/user-attachments/assets/5e5883c6-74b2-47cd-8c6e-daf19404136a)
+Image showing the addition new habits by the user.
+
+
+![IMG-20250208-WA0039](https://github.com/user-attachments/assets/0c4a41aa-74f9-408c-9bc4-ebbcb23c1e6f)
+Image showing the tracking of habit and streaks as per the completed ones.
 
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Vaishnavi Rajesh]: [Specific contributions]
-- [Sruthi S Menon]: [Specific contributions]
-- [Sreelekshmy S]: [Specific contributions]
+- Vaishnavi Rajesh:Idea conceptualization,Javascript
+- Sruthi S Menon:HTML,CSS,Overall Editing
+- Sreelekshmy S:Date API Integration,Webapp testing
 
 ---
 Made with ❤️ at TinkerHub
