@@ -62,7 +62,7 @@ Open the website link.Select the Track option to track the habits.The user can m
 
 # Screenshots
 
-C:\Users\user\Desktop\IMG-20250208-WA0038.jpg
+![IMG-20250208-WA0038](https://github.com/user-attachments/assets/3636eb91-abbc-456b-9d49-3c8dbfa7809b)
 Image showing the Habit Tracker website
 
 ![Screenshot2](Add screenshot 2 here with proper name)
