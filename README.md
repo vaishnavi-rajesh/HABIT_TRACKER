@@ -89,7 +89,7 @@ Open the website link.Select the Track option to track the habits.The user can m
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Vaishnavi Rajesh]: []
+- [Vaishnavi Rajesh]: [Specific contributions]
 - [Sruthi S Menon]: [Specific contributions]
 - [Sreelekshmy S]: [Specific contributions]
 
