@@ -8,9 +8,9 @@
 
 
 ### Team Members
-- Member 1: [Vaishnavi rajesh] - [LBSITW]
-- Member 2: [Sruthi S Menon] - [LBSITW]
-- Member 3: [Sreelekshmy S] - [LBSITW]
+- Member 1: Vaishnavi Rajesh - LBS Institute of Technology for Women
+- Member 2: Sruthi S Menon   - LBS Institute of Technology for Women
+- Member 3: Sreelekshmy S    - LBS Institute of Technology for Women
 
 ### Hosted Project Link
 https://habit-tracker-brown-alpha.vercel.app
@@ -62,8 +62,8 @@ Open the website link.Select the Track option to track the habits.The user can m
 
 # Screenshots
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+C:\Users\user\Desktop\IMG-20250208-WA0038.jpg
+Image showing the Habit Tracker website
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
