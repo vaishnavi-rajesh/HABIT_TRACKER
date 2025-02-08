@@ -13,7 +13,7 @@
 - Member 3: [Sreelekshmy S] - [LBSITW]
 
 ### Hosted Project Link
-habit-tracker-brown-alpha.vercel.app
+https://habit-tracker-brown-alpha.vercel.app
 
 ### Project Description
 The app features a calendar-style grid where each month is displayed, and completed days are marked with a color corresponding to the habit. This provides users with a clear visual representation of their progress over time. Habit data, including completed days and streaks, is saved in localStorage, ensuring that progress is preserved even when the user closes the browser.
@@ -39,9 +39,10 @@ For Software:
 - [HTML,CSS,JavaScript]
 - [no external Framework used]
 - [no external Libraries used]
-- ### Tools Used:
 
-1. **HTML**: To structure the web pages, including the habit tracker interface, habit details, and input forms.
+
+### Implementation
+For Software:1. **HTML**: To structure the web pages, including the habit tracker interface, habit details, and input forms.
 2. **CSS**: For styling and creating a clean, user-friendly layout, including responsive design features.
 3. **JavaScript**: For the interactive functionality, such as habit tracking, streak management, and reminders.
 4. **LocalStorage**: To store user habit data persistently across sessions, ensuring habits and progress are saved even after refreshing the page.
@@ -49,24 +50,20 @@ For Software:
 
 These tools work together to create a simple and interactive habit tracker web app.
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
-### Implementation
-For Software:
 # Installation
-[commands]
+Prerequisites:A web browser(Google Chrome,Firefox,etc) and an internet connection.
+
+
 
 # Run
-[commands]
+Open the website link.Select the Track option to track the habits.The user can mark the completed days and the streak gets increased day by day.The user could also add new habits in addition to the default ones according to his/her own wish by entering a new habit and then clicking on the Add Habit button.The habits that are no longer required could be removed by clicking on the Delete button.
 
-### Project Documentation
-For Software:
 
-# Screenshots (Add at least 3)
+# Screenshots
 
+![Screenshot1](Add screenshot 1 here with proper name)
+*Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
@@ -78,27 +75,10 @@ For Software:
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 # Build Photos
 ![Team](Add photo of your team here)
 
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
@@ -109,9 +89,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Vaishnavi Rajesh]: []
+- [Sruthi S Menon]: [Specific contributions]
+- [Sreelekshmy S]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub
