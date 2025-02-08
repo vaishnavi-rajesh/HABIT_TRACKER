@@ -67,7 +67,7 @@ Image showing the Habit Tracker website.
 
 
 ![IMG-20250208-WA0040](https://github.com/user-attachments/assets/5e5883c6-74b2-47cd-8c6e-daf19404136a)
-Image showing the addition new habits by the user.
+Image showing the addition of new habits by the user.
 
 
 ![IMG-20250208-WA0039](https://github.com/user-attachments/assets/0c4a41aa-74f9-408c-9bc4-ebbcb23c1e6f)
